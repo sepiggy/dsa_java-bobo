@@ -1,5 +1,7 @@
 public class LinkedList<E> {
 
+    private Node next;
+
     private class Node {
         public E e;
         public Node next;
@@ -68,4 +70,85 @@ public class LinkedList<E> {
         size++;
     }
 
+    public E getFirst() {
+        return get(0);
+    }
+
+    public E getLast() {
+        return get(size - 1);
+    }
+
+    // 获得链表的第 index(0-based) 个位置的元素
+    public E get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Get failed. Illegal index.");
+        }
+
+        Node cur = dummyHead.next;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        return cur.e;
+    }
+
+    public void set(int index, E e) {
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Set failed. Illegal index.");
+        }
+
+        Node cur = dummyHead.next;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        cur.e = e;
+    }
+
+    public boolean contains(E e) {
+        for (Node cur = dummyHead.next; cur != null; cur = cur.next) {
+            if (cur.e.equals(e)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public E removeFirst() {
+        return remove(0);
+    }
+
+    public E removeLast() {
+        return remove(size - 1);
+    }
+
+    // 从链表中删除 index (0-based) 位置的元素, 返回删除的元素
+    public E remove(int index) {
+
+        if (index < 0 || index >= size) {
+            throw new IllegalArgumentException("Remove failed. Index is illegal");
+        }
+
+        Node prev = dummyHead;
+        for (int i = 0; i < index; i++) {
+            prev = prev.next;
+        }
+
+        Node retNode = prev.next;
+        prev.next = retNode.next;
+        retNode.next = null;
+
+        size--;
+
+        return retNode.e;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        for (Node cur = dummyHead.next; cur != null; cur = cur.next) {
+            res.append(cur + "->");
+        }
+        res.append("NULL");
+
+        return res.toString();
+    }
 }
