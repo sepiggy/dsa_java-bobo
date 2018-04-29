@@ -1,7 +1,5 @@
 public class LinkedList<E> {
 
-    private Node next;
-
     private class Node {
         public E e;
         public Node next;
