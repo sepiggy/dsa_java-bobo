@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5b4be4-3a33-4831-9ecf-15aac6241a73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Valid-Parentheses/Valid-Parentheses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Valid-Parentheses/20-Valid-Parentheses.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +40,8 @@
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="595">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#126#127#0" expanded="true" />
@@ -49,20 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="180">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" lean-forward="true" selection-end-line="24" />
+            <state relative-caret-position="255">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -217,7 +218,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -238,15 +239,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListQueue" />
       <module name="Queue" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListStack" />
-      <module name="Stack" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -259,9 +255,14 @@
       <module name="Queue" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackTest" />
-      <module name="Stack" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="203-Remove-Linked-List-Elements" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution2" />
+      <module name="203-Remove-Linked-List-Elements" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -288,19 +289,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedListStack" />
-      <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.LinkedListQueue" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.LinkedListStack" />
-        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,12 +317,12 @@
       <workItem from="1524878280671" duration="7454000" />
       <workItem from="1524898726702" duration="7288000" />
       <workItem from="1524960762143" duration="5600000" />
-      <workItem from="1524972547413" duration="14949000" />
+      <workItem from="1524972547413" duration="16727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54907000" />
+    <option name="totallyTimeSpent" value="56685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -335,7 +336,7 @@
       <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.3298969" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3266583" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3266583" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3266583" />
       <window_info id="Designer" order="4" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" weight="0.44305557" />
@@ -355,10 +356,10 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3266583" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3266583" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.44305557" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" weight="0.44305557" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Module Dependencies" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -370,7 +371,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5009259" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3266583" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3266583" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -594,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="595">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#126#127#0" expanded="true" />
@@ -603,17 +604,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java">
+    <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="255">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java">
+    <entry file="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-end-line="24" />
+        <state relative-caret-position="180">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
