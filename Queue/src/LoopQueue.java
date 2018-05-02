@@ -29,6 +29,7 @@ public class LoopQueue<E> implements Queue<E> {
 
     @Override
     public void enqueue(E e) {
+
         if ((tail + 1) % data.length == front) {
             resize(getCapacity() * 2);
         }
