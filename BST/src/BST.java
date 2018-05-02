@@ -28,59 +28,44 @@ public class BST<E extends Comparable<E>> {
         return size == 0;
     }
 
-//    public void add(E e) {
-//        if (isEmpty()) {
-//            root = new Node(e);
-//        } else {
-//            Node prev = root;
-//            while (prev != null) {
-//                if (e.compareTo(prev.e) < 0) {
-//                    prev = prev.left;
-//                }
-//                if (e.compareTo(prev.e) > 0) {
-//                    prev = prev.right;
-//                }
-//            }
-//            if (e.compareTo(prev.e) < 0) {
-//                prev = new Node(e);
-//            }else{
-//                prev = new Node(e);
-//            }
-//        }
-//    }
-
     public void add(E e) {
-
-        if (root == null) {
-            root = new Node(e);
-            size++;
-        } else {
-            add(root, e);
-        }
+        root = add(root, e);
     }
 
-    // 向以 node 为根的二分搜索树中插入元素 E , 递归算法
-    private void add(Node node, E e) {
+    // 向以 node 为根的二分搜索树中插入元素 e , 递归算法
+    // 返回插入新节点后二分搜索树的根
+    private Node add(Node node, E e) {
 
-        // step1. 写出最基本问题, 也就是递归终止条件
-        if (e.compareTo(node.e) == 0) {
-            return;
-        } else if (e.compareTo(node.e) < 0 && node.left == null) {
-            node.left = new Node(e);
+        if (node == null) {
             size++;
-            return;
-        } else if (e.compareTo(node.e) > 0 && node.right == null) {
-            node.right = new Node(e);
-            size++;
-            return;
+            return new Node(e);
         }
 
-        // step2. 把原问题转化为更小的问题
         if (e.compareTo(node.e) < 0) {
-            add(node.left, e);
-        } else {
-            add(node.right, e);
+            node.left = add(node.left, e);
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = add(node.right, e);
         }
+
+        return node;
     }
 
+    // 看二分搜索树中是否包含元素 e
+    public boolean contains(E e) {
+        return contains(root, e);
+    }
+
+    // 看以 node 为根的二分搜索树中是否包含元素 e, 递归算法
+    private boolean contains(Node node, E e) {
+        if (node == null)
+            return false;
+
+        if (e.compareTo(node.e) < 0) {
+            return contains(node.left, e);
+        } else if (e.compareTo(node.e) > 0) {
+            return contains(node.right, e);
+        } else {
+            return true;
+        }
+    }
 }
