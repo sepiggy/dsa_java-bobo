@@ -1,3 +1,5 @@
+import java.lang.reflect.InaccessibleObjectException;
+
 // 二分搜索树中存储的元素必须是可比较的!
 public class BST<E extends Comparable<E>> {
 
@@ -67,5 +69,84 @@ public class BST<E extends Comparable<E>> {
         } else {
             return true;
         }
+    }
+
+    // 二分搜索树的前序遍历
+    public void preOrder() {
+        preOrder(root);
+    }
+
+    // 前序遍历以 node 为根的二分搜索树, 递归算法
+    private void preOrder(Node node) {
+
+        if (node == null) {
+            return;
+        }
+
+        System.out.println(node.e);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    // 二分搜索树的中序遍历
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    // 中序遍历以 node 为根的二分搜索树, 递归算法
+    private void inOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        inOrder(node.left);
+        System.out.println(node.e);
+        inOrder(node.right);
+    }
+
+    // 二分搜索树的后序遍历
+    public void postOrder() {
+        postOrder(root);
+    }
+
+    // 后序遍历以 node 为根的二分搜索树, 递归算法
+    private void postOrder(Node node) {
+
+        if (node == null) {
+            return;
+        }
+
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node.e);
+    }
+
+    // 前序遍历的应用
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        generateBSTString(root, 0, res);
+        return res.toString();
+    }
+
+    // 生成以 node 为根节点, 深度为 depth 的描述二叉树的字符串
+    private void generateBSTString(Node node, int depth, StringBuilder res) {
+
+        if (node == null) {
+            res.append(generateDepthString(depth) + "null\n");
+            return;
+        }
+
+        res.append(generateDepthString(depth) + node.e + "\n");
+        generateBSTString(node.left, depth + 1, res);
+        generateBSTString(node.right, depth + 1, res);
+    }
+
+    private String generateDepthString(int depth) {
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < depth; i++) {
+            res.append("--");
+        }
+        return res.toString();
     }
 }
