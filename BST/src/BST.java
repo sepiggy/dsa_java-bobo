@@ -88,6 +88,29 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.right);
     }
 
+    // 二分搜索树的非递归前序遍历 (借助栈来实现)
+    public void preOrderNR() {
+
+        if (root == null) {
+            return;
+        }
+
+        Stack<Node> stack = new LinkedListStack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node cur = stack.pop();
+            System.out.println(cur.e);
+
+            if (cur.right != null) {
+                stack.push(cur.right);
+            }
+
+            if (cur.left != null) {
+                stack.push(cur.left);
+            }
+        }
+    }
+
     // 二分搜索树的中序遍历
     public void inOrder() {
         inOrder(root);
