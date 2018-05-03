@@ -6,7 +6,7 @@ public class Main {
         int[] nums = {5, 3, 6, 8, 4, 2};
         for (int num : nums) {
             bst.add(num);
-        }
+
 
 //        System.out.println(bst);
 
@@ -16,8 +16,11 @@ public class Main {
 
 //        bst.postOrder();
 
-        bst.preOrder();
-        System.out.println();
-        bst.preOrderNR();
+//        bst.preOrder();
+//        System.out.println();
+//        bst.preOrderNR();
+
+        bst.levelQrder();
+
     }
 }

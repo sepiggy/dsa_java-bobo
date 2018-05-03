@@ -1,5 +1,3 @@
-import java.lang.reflect.InaccessibleObjectException;
-
 // 二分搜索树中存储的元素必须是可比较的!
 public class BST<E extends Comparable<E>> {
 
@@ -142,6 +140,29 @@ public class BST<E extends Comparable<E>> {
         postOrder(node.left);
         postOrder(node.right);
         System.out.println(node.e);
+    }
+
+    // 二分搜索树的层序遍历
+    public void levelQrder(){
+
+        if (root == null) {
+            return;
+        }
+
+        Queue<Node> queue = new LinkedListQueue<>();
+        queue.enqueue(root);
+        while (!queue.isEmpty()) {
+            Node cur = queue.dequeue();
+            System.out.println(cur.e);
+
+            if (cur.left != null) {
+                queue.enqueue(cur.left);
+            }
+
+            if (cur.right != null) {
+                queue.enqueue(cur.right);
+            }
+        }
     }
 
     // 前序遍历的应用
