@@ -2,17 +2,37 @@ import java.util.ArrayList;
 
 public class Main {
 
+    private static double testSet(Set<String> set, String filename) {
+
+        long startTime = System.nanoTime();
+
+        System.out.println(filename);
+        ArrayList<String> words = new ArrayList<>();
+        if (FileOperation.readFile(filename, words)) {
+            System.out.println("Total words: " + words.size());
+
+            for (String word : words)
+                set.add(word);
+            System.out.println("Total different words: " + set.getSize());
+        }
+
+        long endTime = System.nanoTime();
+
+        return (endTime - startTime) / 1000000000.0;
+    }
+
     public static void main(String[] args) {
 
-        ArrayList<String> words1 = new ArrayList<>();
-        FileOperation.readFile("Set/res/pride-and-prejudice.txt", words1);
-//        FileOperation.readFile("Set/res/a-tale-of-two-cities.txt", words1);
-        System.out.println("Total words: " + words1.size());
+        String filename = "Set/res/pride-and-prejudice.txt";
 
-        BSTSet<String> set1 = new BSTSet<>();
-        for (String word : words1) {
-            set1.add(word);
-        }
-        System.out.println("Total different words: " + set1.getSize());
+        BSTSet<String> bstSet = new BSTSet<>();
+        double time1 = testSet(bstSet, filename);
+        System.out.println("BST Set: " + time1 + " s");
+
+        System.out.println();
+
+        LinkedListSet<String> linkedListSet = new LinkedListSet<>();
+        double time2 = testSet(linkedListSet, filename);
+        System.out.println("Linked List Set: " + time2 + " s");
     }
 }
