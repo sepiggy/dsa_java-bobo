@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f5b4be4-3a33-4831-9ecf-15aac6241a73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/src/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxHeap/src/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/MaxHeap/src/MaxHeap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="MaxHeap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="693">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
               <folding>
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
@@ -58,6 +58,15 @@
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#843#844#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/src/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -119,6 +128,7 @@
         <option value="$PROJECT_DIR$/Map/src/Main.java" />
         <option value="$PROJECT_DIR$/349-Intersection-of-Two-Arrays/src/Solution.java" />
         <option value="$PROJECT_DIR$/350-Intersection-of-Two-Arrays-II/src/Solution.java" />
+        <option value="$PROJECT_DIR$/Array/src/Array.java" />
         <option value="$PROJECT_DIR$/MaxHeap/src/MaxHeap.java" />
       </list>
     </option>
@@ -156,6 +166,15 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaxHeap" type="462c0819:PsiDirectoryNode" />
@@ -329,12 +348,12 @@
       <workItem from="1525169814018" duration="45751000" />
       <workItem from="1525403699777" duration="2979000" />
       <workItem from="1525514574640" duration="6243000" />
-      <workItem from="1525576526763" duration="24842000" />
+      <workItem from="1525576526763" duration="26575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145431000" />
+    <option name="totallyTimeSpent" value="147164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1439" y="23" width="1920" height="1053" extended-state="6" />
@@ -350,7 +369,7 @@
       <window_info anchor="bottom" id="Run" order="3" weight="0.2531401" />
       <window_info anchor="right" id="Terminal" order="8" type="SLIDING" weight="0.6546875" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" weight="0.23020834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.23020834" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
@@ -456,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
           <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -838,10 +850,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Array/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="162" column="18" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="693">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding>
             <element signature="e#110#111#0" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
