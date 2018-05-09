@@ -8,7 +8,6 @@
     <list default="true" id="0f5b4be4-3a33-4831-9ecf-15aac6241a73" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxHeap/MaxHeap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxHeap/MaxHeap.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MaxHeap/src/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="62">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding>
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#176#177#0" expanded="true" />
@@ -57,6 +57,49 @@
                 <element signature="e#407#408#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#478#479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxHeap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/347-Top-K-Frequent-Elements/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MaxHeap/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="801">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+              <folding>
+                <element signature="e#4375#4376#0" expanded="true" />
+                <element signature="e#4427#4428#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,6 +166,8 @@
         <option value="$PROJECT_DIR$/MaxHeap/src/MaxHeap.java" />
         <option value="$PROJECT_DIR$/MaxHeap/src/Main.java" />
         <option value="$PROJECT_DIR$/MaxHeap/src/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/MaxHeap/src/Solution.java" />
+        <option value="$PROJECT_DIR$/347-Top-K-Frequent-Elements/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -159,6 +204,15 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="347-Top-K-Frequent-Elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="347-Top-K-Frequent-Elements" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaxHeap" type="462c0819:PsiDirectoryNode" />
@@ -218,7 +272,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -348,12 +402,12 @@
       <workItem from="1525169814018" duration="45751000" />
       <workItem from="1525403699777" duration="2979000" />
       <workItem from="1525514574640" duration="6243000" />
-      <workItem from="1525576526763" duration="37876000" />
+      <workItem from="1525576526763" duration="42492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158465000" />
+    <option name="totallyTimeSpent" value="163081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1053" extended-state="6" />
@@ -372,6 +426,7 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" weight="0.28020832" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32686713" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5009259" side_tool="true" weight="0.25" />
@@ -384,11 +439,11 @@
       <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.3297769" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32771084" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3990099" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.25120774" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.25120774" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.28020832" />
@@ -396,11 +451,10 @@
       <window_info anchor="right" id="Module Dependencies" order="7" weight="0.3296875" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32771084" />
       <window_info id="Designer" order="4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.3297769" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3990099" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32686713" />
       <window_info id="Structure" order="1" sideWeight="0.5009259" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
@@ -449,27 +503,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Array/src/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -846,27 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MaxHeap/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -883,7 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MaxHeap/src/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="62">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#176#177#0" expanded="true" />
@@ -897,6 +910,41 @@
             <element signature="e#407#408#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MaxHeap/src/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MaxHeap/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="801">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/347-Top-K-Frequent-Elements/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="139" column="6" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
+          <folding>
+            <element signature="e#4375#4376#0" expanded="true" />
+            <element signature="e#4427#4428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -954,7 +1002,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MaxHeap</last-edited>
+          <last-edited>347-Top-K-Frequent-Elements</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
