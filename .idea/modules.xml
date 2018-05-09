@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/20-Valid-Parentheses/20-Valid-Parentheses.iml" filepath="$PROJECT_DIR$/20-Valid-Parentheses/20-Valid-Parentheses.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Valid-Parentheses/20-Valid-Parentheses1.iml" filepath="$PROJECT_DIR$/Valid-Parentheses/20-Valid-Parentheses1.iml" />
       <module fileurl="file://$PROJECT_DIR$/203-Remove-Linked-List-Elements/203-Remove-Linked-List-Elements.iml" filepath="$PROJECT_DIR$/203-Remove-Linked-List-Elements/203-Remove-Linked-List-Elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/349-Intersection-of-Two-Arrays/349-Intersection-of-Two-Arrays.iml" filepath="$PROJECT_DIR$/349-Intersection-of-Two-Arrays/349-Intersection-of-Two-Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/350-Intersection-of-Two-Arrays-II/350-Intersection-of-Two-Arrays-II.iml" filepath="$PROJECT_DIR$/350-Intersection-of-Two-Arrays-II/350-Intersection-of-Two-Arrays-II.iml" />
