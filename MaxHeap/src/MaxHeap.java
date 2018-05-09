@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class MaxHeap<E extends Comparable<E>> {
 
     private Array<E> data;
@@ -23,7 +25,7 @@ public class MaxHeap<E extends Comparable<E>> {
     // 返回完全二叉树的数组表示中, 一个索引所表示的元素的父亲节点的索引
     private int parent(int index) {
         if (index == 0) {
-            throw new IllegalArgumentException("index-0 does NOT have parent");
+            throw new IllegalArgumentException("index-0 does NOT have parent.");
         }
         return (index - 1) / 2;
     }
@@ -49,6 +51,82 @@ public class MaxHeap<E extends Comparable<E>> {
         while (k > 0 && data.get(parent(k)).compareTo(data.get(k)) < 0) {
             data.swap(k, parent(k));
             k = parent(k);
+        }
+    }
+
+    // 看堆中的最大元素
+    public E findMax() {
+
+        if (size() == 0) {
+            throw new IllegalArgumentException("Can NOT find max when heap is EMPTY!");
+        }
+
+        return data.get(0);
+    }
+
+    // 取出堆中的最大元素
+    public E extractMax() {
+
+        E ret = findMax();
+
+        // 第一个元素和最后一个元素交换位置
+        data.swap(0, size() - 1);
+        // 只是在数组中删除最大元素
+        data.removeLast();
+
+        // 维护最大堆的性质
+        siftDown(0);
+
+        return ret;
+    }
+
+    private void siftDown(int k) {
+
+        // k 所在位置是叶子节点, 循环结束
+        while (leftChild(k) < size()) {
+
+            /*
+             * data[j] 是 leftChild 和 rightChild 中的最大值
+             */
+            int j = leftChild(k);
+            // 判断是否有右孩子
+            if (j + 1 < data.getSize() && data.get(j + 1).compareTo(data.get(j)) > 0) {
+                j = rightChild(k);
+            }
+
+            if (data.get(k).compareTo(data.get(j)) >= 0) {
+                break;
+            }
+
+            data.swap(k, j);
+            k = j;
+        }
+    }
+
+    public static void main(String[] args) {
+
+        int n = 1000000;
+
+        MaxHeap<Integer> maxHeap = new MaxHeap<>();
+        Random random = new Random();
+        for (int i = 0; i < n; i++) {
+            maxHeap.add(random.nextInt(Integer.MAX_VALUE));
+        }
+
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = maxHeap.extractMax();
+        }
+
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] < arr[i + 1]) {
+                throw new IllegalArgumentException("ERROR!");
+            }
+        }
+
+        System.out.println("Test MaxHeap completed.");
+        for (int i = 0; i < n; i++) {
+            System.out.print(String.format("%d ", arr[i]));
         }
     }
 }
