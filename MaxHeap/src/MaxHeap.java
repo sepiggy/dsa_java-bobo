@@ -12,6 +12,16 @@ public class MaxHeap<E extends Comparable<E>> {
         data = new Array<>();
     }
 
+    // 将一个数组构造为最大堆
+    public MaxHeap(E[] arr) {
+
+        data = new Array<>(arr);
+        for (int i = parent(arr.length - 1); i >= 0; i--) {
+            siftDown(i);
+        }
+    }
+
+
     // 返回堆中的元素个数
     public int size() {
         return data.getSize();
@@ -46,14 +56,6 @@ public class MaxHeap<E extends Comparable<E>> {
         siftUp(data.getSize() - 1);
     }
 
-    private void siftUp(int k) {
-
-        while (k > 0 && data.get(parent(k)).compareTo(data.get(k)) < 0) {
-            data.swap(k, parent(k));
-            k = parent(k);
-        }
-    }
-
     // 看堆中的最大元素
     public E findMax() {
 
@@ -80,6 +82,24 @@ public class MaxHeap<E extends Comparable<E>> {
         return ret;
     }
 
+
+    // 取出堆中的最大元素, 并且替换成元素 e
+    public E replace(E e) {
+
+        E ret = findMax();
+        data.set(0, e);
+        siftDown(0);
+        return ret;
+    }
+
+    private void siftUp(int k) {
+
+        while (k > 0 && data.get(parent(k)).compareTo(data.get(k)) < 0) {
+            data.swap(k, parent(k));
+            k = parent(k);
+        }
+    }
+
     private void siftDown(int k) {
 
         // k 所在位置是叶子节点, 循环结束
@@ -102,6 +122,7 @@ public class MaxHeap<E extends Comparable<E>> {
             k = j;
         }
     }
+
 
     public static void main(String[] args) {
 
