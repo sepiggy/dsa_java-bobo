@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/347-Top-K-Frequent-Elements/347-Top-K-Frequent-Elements.iml" filepath="$PROJECT_DIR$/347-Top-K-Frequent-Elements/347-Top-K-Frequent-Elements.iml" />
       <module fileurl="file://$PROJECT_DIR$/349-Intersection-of-Two-Arrays/349-Intersection-of-Two-Arrays.iml" filepath="$PROJECT_DIR$/349-Intersection-of-Two-Arrays/349-Intersection-of-Two-Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/350-Intersection-of-Two-Arrays-II/350-Intersection-of-Two-Arrays-II.iml" filepath="$PROJECT_DIR$/350-Intersection-of-Two-Arrays-II/350-Intersection-of-Two-Arrays-II.iml" />
+      <module fileurl="file://$PROJECT_DIR$/677-Map-Sum-Pairs/677-Map-Sum-Pairs.iml" filepath="$PROJECT_DIR$/677-Map-Sum-Pairs/677-Map-Sum-Pairs.iml" />
       <module fileurl="file://$PROJECT_DIR$/804-Unique-Morse-Code-Words/804-Unique-Morse-Code-Words.iml" filepath="$PROJECT_DIR$/804-Unique-Morse-Code-Words/804-Unique-Morse-Code-Words.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/BST/BST.iml" filepath="$PROJECT_DIR$/BST/BST.iml" />
@@ -23,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/Set/Set.iml" filepath="$PROJECT_DIR$/Set/Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Trie/Trie.iml" filepath="$PROJECT_DIR$/Trie/Trie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnionFind/UnionFind.iml" filepath="$PROJECT_DIR$/UnionFind/UnionFind.iml" />
     </modules>
   </component>
 </project>
