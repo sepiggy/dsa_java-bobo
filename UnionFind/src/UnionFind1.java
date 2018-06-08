@@ -1,27 +1,14 @@
-public class UnionFInd1 implements UF {
+public class UnionFind1 implements UF {
 
     private int[] id;
 
-    public UnionFInd1(int size) {
+    public UnionFind1(int size) {
 
         id = new int[size];
 
         for (int i = 0; i < id.length; i++) {
             id[i] = i;
         }
-    }
-
-    /**
-     * 查找元素 p 所对应的集合编号
-     * O(1)
-     */
-    private int find(int p) {
-
-        if (p < 0 || p >= id.length) {
-            throw new IllegalArgumentException("p is out of bound.");
-        }
-
-        return id[p];
     }
 
     /**
@@ -60,5 +47,18 @@ public class UnionFInd1 implements UF {
     @Override
     public int getSize() {
         return id.length;
+    }
+
+    /**
+     * 查找元素 p 所对应的集合编号
+     * O(1)
+     */
+    private int find(int p) {
+
+        if (p < 0 || p >= id.length) {
+            throw new IllegalArgumentException("p is out of bound.");
+        }
+
+        return id[p];
     }
 }
