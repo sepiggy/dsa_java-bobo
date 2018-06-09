@@ -7,7 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0f5b4be4-3a33-4831-9ecf-15aac6241a73" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnionFind/src/UnionFInd1.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnionFind/src/UnionFind1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnionFind/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnionFind/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnionFind/src/UnionFind3.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnionFind/src/UnionFind3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,12 +43,8 @@
       <file leaf-file-name="UnionFind1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
+            <state relative-caret-position="588">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -55,14 +52,8 @@
       <file leaf-file-name="UnionFind2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
+            <state relative-caret-position="1085">
               <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-              <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +61,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnionFind/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="566">
+              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding>
                 <element signature="method#testUF#0;class#Main#0" />
               </folding>
@@ -82,14 +73,63 @@
       <file leaf-file-name="UnionFind3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="271">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#UnionFind3#0" />
                 <element signature="method#UnionFind3#0;class#UnionFind3#0" />
                 <element signature="docComment;method#isConnected#0;class#UnionFind3#0" />
+                <element signature="method#unionElements#0;class#UnionFind3#0" />
                 <element signature="docComment;method#find#0;class#UnionFind3#0" />
                 <element signature="method#find#0;class#UnionFind3#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnionFind4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+              <folding>
+                <element signature="docComment;class#UnionFind4#0" />
+                <element signature="method#UnionFind4#0;class#UnionFind4#0" />
+                <element signature="docComment;method#isConnected#0;class#UnionFind4#0" />
+                <element signature="docComment;method#find#0;class#UnionFind4#0" />
+                <element signature="method#find#0;class#UnionFind4#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnionFind5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="docComment;class#UnionFind5#0" />
+                <element signature="method#UnionFind5#0;class#UnionFind5#0" />
+                <element signature="docComment;method#isConnected#0;class#UnionFind5#0" />
+                <element signature="method#unionElements#0;class#UnionFind5#0" />
+                <element signature="docComment;method#find#0;class#UnionFind5#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnionFind6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+              <folding>
+                <element signature="docComment;class#UnionFind6#0" />
+                <element signature="method#UnionFind6#0;class#UnionFind6#0" />
+                <element signature="docComment;method#isConnected#0;class#UnionFind6#0" />
+                <element signature="method#unionElements#0;class#UnionFind6#0" />
+                <element signature="docComment;method#find#0;class#UnionFind6#0" />
               </folding>
             </state>
           </provider>
@@ -119,9 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Queue/src/Main.java" />
-        <option value="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/ListNode.java" />
-        <option value="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution.java" />
         <option value="$PROJECT_DIR$/203-Remove-Linked-List-Elements/src/Solution2.java" />
         <option value="$PROJECT_DIR$/Queue/src/LoopQueue.java" />
         <option value="$PROJECT_DIR$/Recursion/src/Sum.java" />
@@ -169,6 +206,9 @@
         <option value="$PROJECT_DIR$/UnionFind/src/UnionFind2.java" />
         <option value="$PROJECT_DIR$/UnionFind/src/UnionFind1.java" />
         <option value="$PROJECT_DIR$/UnionFind/src/UnionFind3.java" />
+        <option value="$PROJECT_DIR$/UnionFind/src/UnionFind4.java" />
+        <option value="$PROJECT_DIR$/UnionFind/src/UnionFind5.java" />
+        <option value="$PROJECT_DIR$/UnionFind/src/UnionFind6.java" />
         <option value="$PROJECT_DIR$/UnionFind/src/Main.java" />
       </list>
     </option>
@@ -189,10 +229,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -203,7 +242,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UnionFind6" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -226,37 +286,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="350-Intersection-of-Two-Arrays-II" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="350-Intersection-of-Two-Arrays-II" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsa_java-bobo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UnionFind3" type="1a9f42e2:ClassTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,20 +305,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Set/res" />
+      <recent name="$PROJECT_DIR$/Set/src" />
+      <recent name="$PROJECT_DIR$/Set" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Trie" />
       <recent name="$PROJECT_DIR$/Map/res" />
       <recent name="$PROJECT_DIR$/Set/res" />
       <recent name="$PROJECT_DIR$/Set/src" />
       <recent name="$PROJECT_DIR$/Valid-Parentheses/src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Set/res" />
-      <recent name="$PROJECT_DIR$/Set/src" />
-      <recent name="$PROJECT_DIR$/Set" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -409,15 +439,16 @@
       <workItem from="1528164132014" duration="6944000" />
       <workItem from="1528351410883" duration="2878000" />
       <workItem from="1528355445235" duration="1557000" />
-      <workItem from="1528440464248" duration="4410000" />
+      <workItem from="1528440464248" duration="4527000" />
+      <workItem from="1528534478117" duration="2990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216805000" />
+    <option name="totallyTimeSpent" value="219912000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -427,19 +458,19 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="REPL" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.25025538" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2503129" />
       <window_info anchor="right" id="Leiningen" order="10" />
-      <window_info anchor="right" x="1440" y="23" width="1920" height="1053" id="Terminal" order="8" type="FLOATING" weight="0.6546875" />
+      <window_info anchor="right" x="0" y="23" width="1440" height="877" id="Terminal" order="8" type="FLOATING" weight="0.6546875" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.2515625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.21944444" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32655138" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5009259" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39883268" />
       <window_info id="Favorites" order="3" sideWeight="0.5055762" side_tool="true" weight="0.21041666" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39883268" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Module Dependencies" order="7" weight="0.3296875" />
@@ -447,34 +478,34 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.3297769" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32655138" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39883268" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.25025538" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2503129" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.2515625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.21944444" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Module Dependencies" order="7" weight="0.3296875" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="REPL" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32655138" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Leiningen" order="10" />
       <window_info anchor="bottom" id="Analyze Dataflow to" order="0" weight="0.3297769" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32655138" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39883268" />
       <window_info id="Structure" order="1" sideWeight="0.5009259" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" x="1440" y="23" width="1920" height="1053" id="Terminal" order="8" type="FLOATING" weight="0.6546875" />
+      <window_info anchor="right" x="0" y="23" width="1440" height="877" id="Terminal" order="8" type="FLOATING" weight="0.6546875" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32960325" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.328807" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296875" />
       <window_info id="Favorites" order="3" sideWeight="0.5055762" side_tool="true" weight="0.21041666" />
@@ -514,27 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Recursion/src/Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="578" column="16" selection-start-line="578" selection-start-column="16" selection-end-line="578" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BST/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Set/res/a-tale-of-two-cities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -830,10 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="class#Node#0;class#Trie#0" />
-            <element signature="method#Node#0;class#Node#0;class#Trie#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,11 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="class#Node#0;class#Trie#0" />
-            <element signature="method#Trie#0;class#Trie#0" />
-            <element signature="method#insert#0;class#Trie#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="class#Node#0;class#WordDictionary#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,48 +871,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind1.java">
+    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="1085">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="docComment;class#UnionFind4#0" />
+            <element signature="method#UnionFind4#0;class#UnionFind4#0" />
+            <element signature="docComment;method#isConnected#0;class#UnionFind4#0" />
+            <element signature="docComment;method#find#0;class#UnionFind4#0" />
+            <element signature="method#find#0;class#UnionFind4#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind2.java">
+    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="588">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
+            <element signature="docComment;class#UnionFind5#0" />
+            <element signature="method#UnionFind5#0;class#UnionFind5#0" />
+            <element signature="docComment;method#isConnected#0;class#UnionFind5#0" />
+            <element signature="method#unionElements#0;class#UnionFind5#0" />
+            <element signature="docComment;method#find#0;class#UnionFind5#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="271">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#UnionFind3#0" />
             <element signature="method#UnionFind3#0;class#UnionFind3#0" />
             <element signature="docComment;method#isConnected#0;class#UnionFind3#0" />
+            <element signature="method#unionElements#0;class#UnionFind3#0" />
             <element signature="docComment;method#find#0;class#UnionFind3#0" />
             <element signature="method#find#0;class#UnionFind3#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UnionFind/src/UnionFind6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;class#UnionFind6#0" />
+            <element signature="method#UnionFind6#0;class#UnionFind6#0" />
+            <element signature="docComment;method#isConnected#0;class#UnionFind6#0" />
+            <element signature="method#unionElements#0;class#UnionFind6#0" />
+            <element signature="docComment;method#find#0;class#UnionFind6#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnionFind/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="566">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
           <folding>
             <element signature="method#testUF#0;class#Main#0" />
           </folding>

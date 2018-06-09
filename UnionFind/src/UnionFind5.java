@@ -1,20 +1,20 @@
 /**
- * 第三版 UnionFind3
- * 考虑 Size
+ * 第五版 UnionFind5
+ * 在第四版的基础上, 基于路径压缩的优化
  */
-public class UnionFind3 implements UF {
+public class UnionFind5 implements UF {
 
     private int[] parent;
-    private int[] sz; // sz[i] 表示以 i 为根的集合中元素的个数
+    private int[] rank; // rank[i] 表示以 i 为根的集合所表示的树的层数
 
-    public UnionFind3(int size) {
+    public UnionFind5(int size) {
 
         parent = new int[size];
-        sz = new int[size];
+        rank = new int[size];
 
         for (int i = 0; i < size; i++) {
             parent[i] = i;
-            sz[i] = 1;
+            rank[i] = 1;
         }
     }
 
@@ -45,12 +45,13 @@ public class UnionFind3 implements UF {
             return;
         }
 
-        if (sz[pRoot] < sz[qRoot]) {
+        if (rank[pRoot] < rank[qRoot]) {
             parent[pRoot] = qRoot;
-            sz[qRoot] += sz[pRoot];
-        } else { // sz[qRoot] <= sz[pRoot]
+        } else if (rank[qRoot] < rank[pRoot]) {
             parent[qRoot] = pRoot;
-            sz[pRoot] += sz[qRoot];
+        } else {
+            parent[qRoot] = pRoot;
+            rank[pRoot] += 1;
         }
     }
 
@@ -67,8 +68,11 @@ public class UnionFind3 implements UF {
             throw new IllegalArgumentException("p is out of bound.");
         }
 
-        while (p != parent[p])
+        while (p != parent[p]) {
+            parent[p] = parent[parent[p]];
             p = parent[p];
+        }
+
         return p;
     }
 }
