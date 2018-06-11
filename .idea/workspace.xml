@@ -41,19 +41,19 @@
       <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVLTree/src/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+            <state relative-caret-position="62">
+              <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
               <folding>
                 <element signature="class#Node#0;class#AVLTree#0" />
                 <element signature="method#Node#0;class#Node#0;class#AVLTree#0" />
                 <element signature="method#AVLTree#0;class#AVLTree#0" />
                 <element signature="method#isBST#0;class#AVLTree#0" />
                 <element signature="method#inOrder#0;class#AVLTree#0" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="method#isBalanced#1;class#AVLTree#0" />
                 <element signature="method#getHeight#0;class#AVLTree#0" />
                 <element signature="method#getBalanceFactor#0;class#AVLTree#0" />
-                <element signature="method#add#1;class#AVLTree#0" />
+                <element signature="method#rightRotate#0;class#AVLTree#0" />
+                <element signature="method#leftRotate#0;class#AVLTree#0" />
                 <element signature="method#getNode#0;class#AVLTree#0" />
                 <element signature="method#get#0;class#AVLTree#0" />
                 <element signature="method#set#0;class#AVLTree#0" />
@@ -378,12 +378,12 @@
       <workItem from="1528355445235" duration="1557000" />
       <workItem from="1528440464248" duration="4527000" />
       <workItem from="1528534478117" duration="4094000" />
-      <workItem from="1528680875216" duration="3659000" />
+      <workItem from="1528680875216" duration="5968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224675000" />
+    <option name="totallyTimeSpent" value="226984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1053" extended-state="6" />
@@ -396,7 +396,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="REPL" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2628516" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2628516" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Leiningen" order="10" />
       <window_info anchor="right" x="0" y="23" width="1440" height="873" id="Terminal" order="8" type="FLOATING" weight="0.6546875" />
@@ -421,10 +421,10 @@
     <layout-to-restore>
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.26347914" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2628516" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" visible="true" weight="0.21927084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944238" weight="0.21927084" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Module Dependencies" order="7" weight="0.3296875" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -881,19 +881,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AVLTree/src/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+        <state relative-caret-position="62">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
           <folding>
             <element signature="class#Node#0;class#AVLTree#0" />
             <element signature="method#Node#0;class#Node#0;class#AVLTree#0" />
             <element signature="method#AVLTree#0;class#AVLTree#0" />
             <element signature="method#isBST#0;class#AVLTree#0" />
             <element signature="method#inOrder#0;class#AVLTree#0" />
-            <element signature="e#1245#1246#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="method#isBalanced#1;class#AVLTree#0" />
             <element signature="method#getHeight#0;class#AVLTree#0" />
             <element signature="method#getBalanceFactor#0;class#AVLTree#0" />
-            <element signature="method#add#1;class#AVLTree#0" />
+            <element signature="method#rightRotate#0;class#AVLTree#0" />
+            <element signature="method#leftRotate#0;class#AVLTree#0" />
             <element signature="method#getNode#0;class#AVLTree#0" />
             <element signature="method#get#0;class#AVLTree#0" />
             <element signature="method#set#0;class#AVLTree#0" />

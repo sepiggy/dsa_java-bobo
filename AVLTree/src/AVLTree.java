@@ -90,6 +90,38 @@ public class AVLTree<K extends Comparable<K>, V> {
         return getHeight(node.left) - getHeight(node.right);
     }
 
+    private Node rightRotate(Node y) {
+
+        Node x = y.left;
+        Node T3 = x.right;
+
+        // 向右旋转过程
+        x.right = y;
+        y.left = T3;
+
+        // 更新 height
+        y.height = Math.max(getHeight(y.left), getHeight(y.right)) + 1;
+        x.height = Math.max(getHeight(x.left), getHeight(x.right)) + 1;
+
+        return x;
+    }
+
+    private Node leftRotate(Node y) {
+
+        Node x = y.right;
+        Node T2 = x.left;
+
+        // 向左旋转过程
+        x.left = y;
+        y.right = T2;
+
+        // 更新 height
+        y.height = Math.max(getHeight(y.left), getHeight(y.right)) + 1;
+        x.height = Math.max(getHeight(x.left), getHeight(x.right)) + 1;
+
+        return x;
+    }
+
     // 向二分搜索树中添加新的元素(key, value)
     public void add(K key, V value) {
         root = add(root, key, value);
@@ -118,6 +150,15 @@ public class AVLTree<K extends Comparable<K>, V> {
         int balanceFactor = getBalanceFactor(node);
         if (Math.abs(balanceFactor) > 1)
             System.out.println("unbalanced : " + balanceFactor);
+
+        // 平衡维护
+        if (balanceFactor > 1 && getBalanceFactor(node.left) >= 0) {
+            return rightRotate(node);
+        }
+
+        if (balanceFactor < -1 && getBalanceFactor(node.right) <= 0) {
+            return leftRotate(node);
+        }
 
         return node;
     }
